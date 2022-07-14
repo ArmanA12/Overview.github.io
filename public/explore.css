@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+#im{
+    width: 100%;
+    height: 100vh;
+    opacity:0.6 ;
+}
+.nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 78px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    justify-content: space-between;
+    top: 2px;
+}
+i{
+    color: rgb(26, 73, 70);
+}
+.search{
+    display: flex;
+    width:460px;
+    justify-content: space-around;
+}
+.search input{
+    position: relative;
+    width: 350px;
+    height: 34px;
+    border: 0.5px solid rgb(126, 108, 65);
+    border-radius: 2px;
+    background-color:transparent;
+    
+
+}
+.search button{
+    position: relative;
+    width: 55px;
+    right: 25px;
+   border: 1px solid black; 
+   border-radius: 2px;   
+   background: black;
+}
+#ic{
+    position: relative;
+    margin-left: 35px;
+    text-shadow: 2px 2px 2px rgb(5, 84, 84);
+    color: rgb(187, 133, 8);
+}
+#lo{
+    position: relative;
+    top: 8px;
+    left: -227px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgb(12, 75, 59);
+     color: rgb(201, 133, 7);
+}
+.op{
+    position: absolute;
+    width: 235px;
+    height: 437px;
+    top: 81px;
+    background:black;
+    opacity: 0.3;
+}
+.op div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 1000;
+    height: 59px;
+    color: aliceblue;
+    border-bottom: 1px solid white;
+}
+.op div:hover{
+    box-shadow: rgba(156, 156, 157, 0.833) 0px 2px 5px -1px, rgba(185, 184, 184, 0.673) 0px 1px 3px -1px;
+    cursor: pointer;
+    transition: 2s;
+    background-color: rgb(242, 6, 6);
+}
+.main{
+    position: absolute;
+    top: 95px;
+    width: 780px;
+    height: 370px;
+    left: 300px;
+    overflow-y: scroll;
+    text-align: center;
+    opacity: 0.9;
+    display: none;
+}
+.main p{
+    width: 60px;
+    border: 1px solid black;
+    height: 40px;
+}
+.hotel{
+    position: absolute;
+    top: 100px;
+    width: 780px;
+    height: 370px;
+    left: 300px;
+    overflow-y: scroll;
+    text-align: center;
+    opacity: 0.9;
+}
+.resturant{
+    position: absolute;
+    top: 100px;
+    width: 780px;
+    height: 370px;
+    left: 300px;
+    overflow-y: scroll;
+    text-align: center;
+    opacity: 0.9;
+    display: none;
+}
+.plz{
+    position: absolute;
+    top: 280px;
+    left: 580px;
+     font-size: 30px;
+     font-weight: 1000;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     background-image: linear-gradient(rgb(247, 177, 38), rgb(242, 12, 12));
+     -webkit-background-clip: text;
+     color: transparent;
+}
+
+

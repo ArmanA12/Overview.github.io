@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta charset="utf-8">
+    <title>Get User Location</title>
+    <link rel="stylesheet" href="all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https:onts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa&family=IBM+Plex+Mono:wght@100&family=Luxurious+Roman&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body id="n">
+    <div class="navbar">
+      <div class="logo">
+        <p id="you">    GCT! LOCATOR</p>
+         <p id="get">GetYourCurrentLocation</p>
+      </div>
+      <div class="con">
+       <p>Home</p>
+       <p><a id="ex" href="explore.html">Explore</a></p>
+       <p>About</p>
+       </div>
+    </div>
+    <div class="homepage">
+      <iframe id="iframe"  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63028.835812886995!2d72.82105040668885!3d18.986603182846313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1648399794548!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <button id="botton">Detect your location</button>
+       <button id="map">View Map</button>
+    <div class="user" id="us">
+      <p id="country"></p>
+      <p id="state"></p>
+      <p id="state_district"></p>
+      <p id="postcode"></p>
+      <p id="road"></p>
+      <p id="suburb"></p>
+    </div>
+        <div  class="para" id="par">
+            <p id="welp" class="h3">Welcome to GCT! LOCATOR </p>
+            
+            <p id="lorem">welcome at TravelAdvisor , its opensource website made by junior front end developer , before starting it will take your permition for your location , and here you see where are you at current time , and you can explore the thing what is intersting around you , and you can find hotel and resturant and more information you want to know, this is working on RAPIDAPI and opengeocage opensource api plateform....   </p>
+         </div>
+         <div class="hotel">
+           <p id="loc" class="h3">Top Three Hotel at your locations  </p> <p id="location"> </p>
+           <div class="htdata">
+             <div class="first">
+               <p class="htm" id="image1"></p>
+                 <p id="hotelname"></p> <p id="hotelrating"></p>
+                 <p id="hotelclass"></p> <p id="hotelopen"></p>
+                 <p id="hotelprice"></p> <p id="hotelreview"> </p>
+
+             </div>
+             <div class="second">
+               <p class="htm" id="image2"></p>
+               <p id="hotelname1"></p> <p id="hotelrating1"></p>
+               <p id="hotelclass1"></p> <p id="hotelopen1"></p>
+               <p id="hotelprice1"></p> <p id="hotelreview1"> </p>
+
+             </div>
+             <div class="third"> 
+                <p class="htm" id="image3"></p>
+                <p id="hotelname2"></p> <p id="hotelrating2"></p>
+                <p id="hotelclass2"></p> <p id="hotelopen2"></p>
+                <p id="hotelprice2"></p> <p id="hotelreview2"> </p>
+             </div>
+           </div>
+           <button id="hot"> SEE MORE  </button>
+        </div>
+        <div class="resturant">
+          <h3 id="ts" class="h3"> Top Three resturant at your Location See Interesting</h3>
+          <div class="res">
+            <p class="htm" id="rimage1"></p>
+                <p id="frname"></p> <p id="frating"></p>
+                <p id="franking"></p> <p id="frprise"></p>
+                <p id="fweb"></p>
+          </div>
+          <button> <a class="a"  href="https://getcssscan.com/css-box-shadow-examples">SEE ALL RESTURANTS</a> </button>
+        
+        </div>
+        <div class="abs">
+          <h3 class="h3" >Top three Attractions Near you</h3>
+           <div class="ar">
+             <p class="ab" id="abimage"></p>
+              <p id="abname"></p>
+              <p id="abadd"></p>
+              <p id="abrating"></p>
+              <span class="sp">Visite on site</span>
+           </div>
+           <div class="ar">
+             <p class="ab"  id="abimage1"></p>
+                 <p id="abname1"></p>
+                 <p id="abadd1"></p>
+                 <p id="abrating1"></p>
+                 <span class="sp">Visite on site</span>
+           </div>
+           <div class="ar">
+             <p class="ab" id="abimage2" ></p>
+                 <p id="abname2"></p>
+                 <p id="abadd2"></p>
+                 <p id="abrating2"></p>
+                 <span class="sp">Visite on site</span>
+           </div>
+        </div>
+    </div>
+    <div class="about" >
+      <h1 class="h3 ">ABOUT ! </h1>
+         <span id="sp">
+           <img src="im.jpg" alt="" width="310px" height="353px">
+         </span>
+         <h2 id="about">Hi , I am Md Arman Shekh  , I m software engineer and undergraduate
+          final year student in stream of Bachelor of science information of technology [BSCIT] <br>from
+          Mumbai university [ Akbar peerbhoy collage commerce and economics ] <br> in professional degree , I
+          m proficient in java <br> python, data structure algorithm , object oriented programing....</h2>
+          <button id="bot">READ MORE</button>
+    </div>
+     <div class="footer">
+      <div class="social">
+        <h2>FRONT END DEVELOPER</h2>
+        <div class="s">
+        <h4>Name  :  ARMAN SEKH <br> Role  : Software Developer Engineer <br> Experiance : 4 Month intern <br> Expert  @ CODESTUDIO <br> 3 Star CODER @ LEETCODE <br> Solved 750+ DSA Questions <br> Fashinate about DATA SCIENCE <br> MACHINE LEARNING </h4>
+        </div>
+       </div>
+       <div class="contact">
+         <h2>CONTACT ME</h2>
+         <div class="tact">
+         <i class="fa fa-phone" style="font-size:20px">   </i> <span> +91 7091554628</span>
+         <br>
+         <i class='fab fa-viber'>   </i> <span> +91 7091554628 </span><br>
+         <i class='fas fa-building' style='font-size:20px'></i>  <span> +49 48363-12681</span>
+         <br>
+         <i class="fa fa-envelope" style="font-size:20px"></i> <span>mdarmanshekh4@gmail.com</span>
+         <div>
+       </div>
+       <div class="send">
+         <h3>SEND MESSAGE</h3>
+         <form action="https://formsubmit.co/mdarmanshekh4@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Md Arman Shekh">
+
+          <input type="text" name="Name" id="Name" placeholder="Name" required>
+          <br>
+          <input type="email" name="email" id="IM" placeholder="Enter email">
+         <input type="hidden" name="_next" value="http://127.0.0.1:5502/arman.html">
+
+          <br>
+          <textarea name="TextArea" id="" cols="50" rows="5" placeholder="Write something"></textarea>
+          <br>
+          <button id="submit">SEND </button> 
+          </form>
+       </div>
+       <div class="follow"> 
+           <h2 id="fo">FOLLOW ME :</h2>
+            <i id="arr" class='far fa-hand-point-right' style='font-size:24px'></i> 
+            
+           <div class="folc">
+              <div> 
+                 <a href="https://www.linkedin.com/in/md-arman-shekh-5b1796203/">  <i class='fab fa-linkedin' style='font-size:36px' ></i>  </a>
+              </div>
+           <div>  
+            <a href="https://github.com/ArmanA12"><i class='fab fa-github-square' style='font-size:36px'></i></a>
+           </div>
+           <div> 
+               <a href="https://www.instagram.com/arman_aishakar/"><i class='fab fa-instagram' style='font-size:36px'></i></a>
+           </div>
+           <div> 
+              <a href="https://www.facebook.com/mdarman.shekh.5201"><i class='fab fa-facebook-square' style='font-size:36px'></i></a>
+          </div>
+           <div>  
+              <a href="https://twitter.com/AAishakar"><i class='fab fa-twitter-square' style='font-size:36px'></i></a>
+          </div>
+         </div>
+      </div>
+     </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
